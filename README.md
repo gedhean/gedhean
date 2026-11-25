@@ -109,13 +109,6 @@ Today I run the platform behind one of Brazil's top betting products. I set the 
 | 🌳 [**mysql-parser**](https://github.com/gedhean/mysql-parser) | MySQL parser based on ANTLR4. |
 | ⭐ [**react-no-content**](https://github.com/gedhean/react-no-content) | An SVG React component for empty states, from my frontend days (59+ ⭐). |
 
-## 📊 Telemetry from this planet
-
-<div align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=gedhean&show_icons=true&theme=midnight-purple&hide_border=true" alt="GitHub stats" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=gedhean&layout=compact&theme=midnight-purple&hide_border=true" alt="Top languages" />
-</div>
-
 ## 💼 Let's work together
 
 I'm open to **remote** Staff/Senior **SRE**, **Platform Engineering** and **DevOps** roles. I'm based in UTC-03:00, which overlaps with both US and EU teams. I can help your team:
