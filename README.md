@@ -1,10 +1,13 @@
 <div align="center">
 
-# 🪐 Hi, I'm Gêdhean — but you can call me **Jedi**
+# 🪐 Hi, I'm Gêdhean, but you can call me **Jedi**
 
 **Staff Site Reliability Engineer** · Platform Engineering · Keeper of the nines
 
+**90k req/s · 200k+ concurrent users · 99.95% availability · −$100k/month AWS · migration incidents → 0**
+
 <a href="https://www.linkedin.com/in/gedhean/"><img src="https://img.shields.io/badge/LinkedIn-gedhean-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+<a href="mailto:gedhean@gmail.com"><img src="https://img.shields.io/badge/Email-gedhean%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
 <a href="https://www.gedhean.dev"><img src="https://img.shields.io/badge/website-gedhean.dev-0B0D17?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Website"></a>
 <a href="https://x.com/callmejedi42"><img src="https://img.shields.io/badge/@callmejedi42-000000?style=for-the-badge&logo=x&logoColor=white" alt="X"></a>
 <br>
@@ -14,44 +17,38 @@
 
 ---
 
+## 📡 Mission log
+
+| Metric | Result |
+| --- | --- |
+| 🌐 Traffic served | **90k requests/s** for **200k+ concurrent users** at **99.95%** availability on EKS + Istio |
+| 🛠️ Deeb: self-service DB migrations (Go) | Used by **~100 engineers** and the DBAs. Migration-caused incidents **1–2/week → zero**, schema changes **hours → minutes**, no direct prod access |
+| ⏱️ MTTR | **1 hour → 15 minutes** on customer-facing incidents (Prometheus, Grafana, OpenTelemetry) |
+| 💸 Cloud spend | **−$100k/month (~50%)** on AWS at Flutter Brazil; **−60%** on AWS at Gocase |
+| 🤖 AI for ops | LLM troubleshooting agents with securely scoped AWS and Kubernetes tools: **50% faster** diagnosis |
+| 🧭 Technical direction | AWS, Kubernetes, CI/CD and IaC standards for **8 teams, ~100 engineers, 100 microservices** |
+| 🚨 Incident response | Defined and own the incident process; 24/7 on-call one week a month; mentored 4 new engineers |
+
+## 🚀 About me
+
+I'm an SRE who started as a Ruby on Rails developer, so I build platforms that developers can actually use on their own.
+
+Today I run the platform behind Betnacional, one of Brazil's top betting products, at Flutter Brazil (Flutter Entertainment). Off-call, I'm usually looking up at the sky 🔭.
+
 ```yaml
 apiVersion: human/v1
 kind: Engineer
 metadata:
   name: gedhean
   alias: jedi
-  location: Fortaleza, Brazil 🇧🇷
 spec:
   role: Staff Site Reliability Engineer
-  currentOrbit: Flutter Brazil (Flutter Entertainment)
-  experience: 8 years across software & infrastructure
-  education: B.Sc. Computer Engineering — UFC
-  workMode: remote-only
-  timezone: America/Fortaleza (UTC-03:00), overlaps with US & EU
-  languages:
-    english: full professional
-    portuguese: native
+  experience: 7 years across software & infrastructure
+  location: Fortaleza, Brazil (UTC-03:00), remote-only
+  languages: [english (full professional), portuguese (native)]
   replicas: 1          # no autoscaling, sorry
   readinessProbe: ☕
 ```
-
-## 🚀 About me
-
-I'm an SRE who started as a backend developer, so I build platforms that developers can actually use on their own.
-
-Today I run the platform behind one of Brazil's top betting products. I set the AWS, Kubernetes, CI/CD and IaC standards for a 100-engineer org and own the incident management process. Off-call, I'm usually looking up at the sky 🔭 or looking for a good meme.
-
-## 📡 Mission log
-
-| Metric | Result |
-| --- | --- |
-| 🌐 Traffic served | **90k requests/s** for **200k+ concurrent users** at **99.95%** availability |
-| ⏱️ MTTR | **1 hour → 15 minutes** on customer-facing incidents (Prometheus, Grafana, OpenTelemetry) |
-| 💸 Cloud spend | **-$100k/month (~50%)** on AWS at Flutter Brazil; **-60%** on AWS at Gocase |
-| 🛠️ Self-service DB migrations | Used by **~100 engineers**: schema-change lead time **hours → minutes**, no direct prod access |
-| 🧭 Technical direction | AWS architecture, CI/CD, Kubernetes provisioning and IaC standards for a **100-engineer org** |
-| 🤖 AI for ops | LLM-based agents for infrastructure operations and troubleshooting |
-| 🚨 Incident response | Defined and lead the incident process; 24/7 on-call; mentor new engineers |
 
 ## 🛠️ Tech stack
 
@@ -74,8 +71,9 @@ Today I run the platform behind one of Brazil's top betting products. I set the 
 ![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white)
 ![Grafana](https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white)
 ![OpenTelemetry](https://img.shields.io/badge/OpenTelemetry-000000?style=flat-square&logo=opentelemetry&logoColor=white)
-![Incident Management](https://img.shields.io/badge/Incident_Management-B22222?style=flat-square&logo=pagerduty&logoColor=white)
-![FinOps](https://img.shields.io/badge/FinOps-2ea44f?style=flat-square&logo=cashapp&logoColor=white)
+![SLOs](https://img.shields.io/badge/SLOs_%26_Error_Budgets-555555?style=flat-square)
+![Incident Management](https://img.shields.io/badge/Incident_Management-B22222?style=flat-square)
+![FinOps](https://img.shields.io/badge/FinOps-2ea44f?style=flat-square)
 
 **Programming & Data**
 
@@ -95,7 +93,7 @@ Today I run the platform behind one of Brazil's top betting products. I set the 
        │
 2022 ──● Senior SRE @ Flutter Brazil                    90k rps · 99.95% · MTTR 1h → 15min
        │
-2025 ──● Staff SRE @ Flutter Brazil                     org-wide platform direction · incident process
+2025 ──● Staff SRE @ Flutter Brazil                     org-wide standards · Deeb · -$100k/mo AWS
        │
  now ──◌ next mission: your team? 🚀
 ```
@@ -104,14 +102,14 @@ Today I run the platform behind one of Brazil's top betting products. I set the 
 
 | Project | What it is |
 | --- | --- |
-| 🧭 [**road-to-sre**](https://github.com/gedhean/road-to-sre) | My learning resources and notes on Site Reliability Engineering. |
-| 🔍 [**sql-reviewer**](https://github.com/gedhean/sql-reviewer) | Automated review of SQL changes, built on ANTLR-based parsers. |
+| 🔍 [**sql-reviewer**](https://github.com/gedhean/sql-reviewer) | Automated review of SQL schema changes, built on ANTLR-based parsers. The kind of guardrail I build into migration platforms. |
 | 🌳 [**mysql-parser**](https://github.com/gedhean/mysql-parser) | MySQL parser based on ANTLR4. |
+| 🧭 [**road-to-sre**](https://github.com/gedhean/road-to-sre) | My learning resources and notes on Site Reliability Engineering. |
 | ⭐ [**react-no-content**](https://github.com/gedhean/react-no-content) | An SVG React component for empty states, from my frontend days (59+ ⭐). |
 
 ## 💼 Let's work together
 
-I'm open to **remote** Staff/Senior **SRE**, **Platform Engineering** and **DevOps** roles. I'm based in UTC-03:00, which overlaps with both US and EU teams. I can help your team:
+I'm open to **remote** Staff/Senior **SRE**, **Platform Engineering** and **DevOps** roles. I'm based in Brazil (UTC-03:00), with full overlap with US East and EU afternoons, and I'm open to contractor or EOR arrangements. I can help your team:
 
 - scale Kubernetes platforms to high traffic without dropping the nines,
 - set up observability that actually shortens incidents,
@@ -119,23 +117,6 @@ I'm open to **remote** Staff/Senior **SRE**, **Platform Engineering** and **DevO
 - build self-service platforms and golden paths developers like using,
 - cut the cloud bill without cutting reliability.
 
-👉 **[Let's talk on LinkedIn](https://www.linkedin.com/in/gedhean/)**
+👉 **[Let's talk on LinkedIn](https://www.linkedin.com/in/gedhean/)** or **[email me](mailto:gedhean@gmail.com)**
 
-## 🌠 Fun facts
-
-- My handle has **42** in it for a reason. Don't panic, and always carry a towel. 🐬
-- "It works on my machine" is not an SLO.
-- Uptime is like oxygen in space: nobody notices it until it's gone.
-- I stared into the void (`/dev/null`) and it gave back `0 bytes`.
-
-```text
-        🔥🔥🔥🔥🔥🔥🔥🔥
-        🔥  ☕🐶  🔥    "This is fine."
-        🔥🔥🔥🔥🔥🔥🔥🔥        — me, 2 minutes before the rollback finished
-```
-
-<div align="center">
-
-*May the Force (and 99.95% availability) be with you.* ✨
-
-</div>
+<sub>My handle has **42** in it for a reason. Don't panic, and always carry a towel. 🐬 · "It works on my machine" is not an SLO.</sub>
