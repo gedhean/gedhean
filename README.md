@@ -22,7 +22,7 @@
 | Metric | Result |
 | --- | --- |
 | 🌐 Traffic served | **90k requests/s** for **200k+ concurrent users** at **99.95%** availability on EKS + Istio |
-| 🛠️ Deeb: self-service DB migrations (Go) | Used by **~100 engineers** and the DBAs. Migration-caused incidents **1–2/week → zero**, schema changes **hours → minutes**, no direct prod access |
+| 🛠️ [Deeb](https://github.com/gedhean/deeb): self-service DB migrations (Go) | Used by **~100 engineers** and the DBAs. Migration-caused incidents **1–2/week → zero**, schema changes **hours → minutes**, no direct prod access |
 | ⏱️ MTTR | **1 hour → 15 minutes** on customer-facing incidents (Prometheus, Grafana, OpenTelemetry) |
 | 💸 Cloud spend | **−$100k/month (~50%)** on AWS at Flutter Brazil; **−60%** on AWS at Gocase |
 | 🤖 AI for ops | LLM troubleshooting agents with securely scoped AWS and Kubernetes tools: **50% faster** diagnosis |
